@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LOGIN FORM</title>
+	</head>
+	<body>
+	<h1>LOGIN HERE</h1>
+		<form action="Exp11login.jsp">
+		 Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"  /><br/><br/>
+		 Password: &nbsp;<input type="password" name="pass"  /><br/><br/>
+			<input type="submit" value="Login" />  &nbsp;&nbsp;&nbsp;
+			<input type="button" value="Login" onclick="login()"/>
+		</form>
+	</body>
+</html>

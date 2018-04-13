@@ -1,0 +1,7 @@
+package mstest;
+import java.sql.*;
+public class DBtest {
+	public static void main(String []args){
+		
+	}
+}

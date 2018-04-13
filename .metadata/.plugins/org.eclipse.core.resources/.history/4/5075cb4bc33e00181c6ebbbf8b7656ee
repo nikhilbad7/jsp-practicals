@@ -1,0 +1,9 @@
+<html>
+	<head><title>LOGOUT</title></head>
+	<body>
+		<h1>SUCCESSFULLY LOGGED OUT</h1>
+		<%
+			session.invalidate();
+		%>
+	</body>
+</html>

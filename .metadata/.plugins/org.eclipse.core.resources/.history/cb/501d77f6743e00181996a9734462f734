@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MOBILE PHONE CATALOGUE</title>
+	</head>
+	<body>
+		<h1>WELCOME TO MOBILE PHONE CATALOGUE</h1>
+		<table border=1 width=300px>
+		<tr>
+			<th>NAME</th>
+			<th>PRICE</th>
+			<th>BUY</th>
+		</tr>
+		<tr>
+			<td>OPPO 7</td>
+			<td>7000</td>
+			<td><input type="button" align="right" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>IPHONE 10</td>
+			<td>50000</td>
+			<td><input type="button" align="center" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>Galaxy 8</td>
+			<td>30000</td>
+			<td><input type="button" align="center" value="ADD TO CART"></td>
+		</tr>
+			
+			
+		</table>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>REGISTRATION PAGE</title>
+	</head>
+	<body>
+		<form action="Exp10.jsp">
+		Enter Name: &nbsp;<input type="text" name="name"  />
+			<input type="submit" value="Check" />  
+		</form>
+	</body>
+</html>

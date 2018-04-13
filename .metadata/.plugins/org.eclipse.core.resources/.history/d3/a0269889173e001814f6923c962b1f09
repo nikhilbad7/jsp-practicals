@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Add to Contacts</title>
+		<script>
+			function back(){
+				window.location("exp13.html");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Add to Contacts</h1>
+		<form action="">
+			Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" /><br/><br/>
+			Phone No : &nbsp;&nbsp;&nbsp;<input type="text" name="phn" /><br/><br/>
+			<input type="submit" value="ADD" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="button" value=" See All Contacts" onclick="check()" />
+		</form>
+		</body>
+</html>

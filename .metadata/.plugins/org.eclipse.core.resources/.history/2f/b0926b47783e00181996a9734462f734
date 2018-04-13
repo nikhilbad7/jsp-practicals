@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MOBILE PHONE CATALOGUE</title>
+		<script >
+			function cart(){
+				window.location("exp14cart.jsp");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>WELCOME TO MOBILE PHONE CATALOGUE</h1>
+		<table border=1 width=300px>
+		<tr>
+			<th>NAME</th>
+			<th>PRICE</th>
+			<th>BUY</th>
+		</tr>
+		<tr>
+			<td>OPPO 7</td>
+			<td>7000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>IPHONE 10</td>
+			<td>50000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>Galaxy 8</td>
+			<td>30000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>MOTOROLA</td>
+			<td>3000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>NOKIA</td>
+			<td>6000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>STAR PRO</td>
+			<td>3000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+		<tr>
+			<td>VIVO </td>
+			<td>8000</td>
+			<td><input type="button" value="ADD TO CART"></td>
+		</tr>
+			
+			
+		</table>
+		<hr>
+		<input type="button" value="CHECK MY CART"  onclick="cart()"/>
+	</body>
+</html>

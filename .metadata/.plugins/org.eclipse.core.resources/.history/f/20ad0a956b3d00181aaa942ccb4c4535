@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>REGISTRATION PAGE</title>
+		<script type="text/javascript">
+		function check(){
+			window.location("Exp10.jsp");
+		}
+	</script>
+	</head>
+	
+	<body>
+		<form action="Exp10add.jsp">
+		 Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"  /><br/><br/>
+		 Password: &nbsp;<input type="password" name="pass"  /><br/><br/>
+		 Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"  /><br/><br/>
+		 Phone No: &nbsp;<input type="text" name="phn"  /><br/><br/>
+			<input type="submit" value="Register" />  &nbsp;&nbsp;&nbsp;
+			<input type="button" value="CHECK" onclick="check()" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MOBILE PHONE CATALOGUE</title>
+	</head>
+	<body>
+		<h1>WELCOME TO MOBILE PHONE CATALOGUE</h1>
+		<table border=1 width=300px>
+		<tr>
+			<th>NAME</th>
+			<th>PRICE</th>
+			<th>BUY</th>
+		</tr>
+			
+		</table>
+	</body>
+</html>

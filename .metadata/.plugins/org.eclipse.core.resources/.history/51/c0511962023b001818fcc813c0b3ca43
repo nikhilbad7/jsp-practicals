@@ -1,0 +1,9 @@
+package com.nikhil.servletdemo.mvctwo;
+
+import java.util;
+
+public class StudentDataUtil {
+	public static List<Student> getStudents(){
+		
+	}
+}

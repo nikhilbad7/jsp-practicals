@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WELCOME TO TELEPHONE DIRECTORY</title>
+	</head>
+	<body>
+		<h1> WELCOME TO TELEPHONE DIRECTORY</h1>
+		<form action="exp13search.jsp">
+			Name: &nbsp;&nbsp;&nbsp; <input type="text" name="name" /> <br/><br/>
+			<input type="submit" value="Search" />
+		</form>
+		<br/><hr/>
+		<input type="button" value="Add to Contacts" onclick="add()" />&nbsp;&nbsp;
+		<input type="button" value=" See All Contacts" onclick="check()" />
+	</body>
+</html>

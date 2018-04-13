@@ -1,0 +1,29 @@
+package mstest;
+import java.sql.*;
+
+public class test {
+
+
+
+
+	public static void main(String []args){
+		try{
+			Class.forName("net.ucanaccess.jdbc.UcanacessDriver");
+			//DriverManager.registerDriver(new net.ucanaccess.jdbc.UcanacessDriver());
+			Connection con= DriverManager.getConnection("jdbc:ucanaccess://C:/Database1.accdb");
+			Statement stmt=con.createStatement();
+			String q = "select * from student";
+			ResultSet rs=stmt.executeQuery(q);
+			while(rs.next()){
+				System.out.print(rs.getString("name"));
+			}
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+
+
+	
+	
+}

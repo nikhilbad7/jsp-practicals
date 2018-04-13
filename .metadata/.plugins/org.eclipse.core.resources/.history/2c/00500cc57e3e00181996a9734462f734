@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My Cart</title>	
+	</head>
+	<body>
+		<h1> MY CART</h1>
+		<table border=1 width=400px>
+			<tr>
+				<th>NAME</th>
+				<th colspan=2>CHOOSE</th>
+			</tr>
+		</table>
+	</body>
+</html>

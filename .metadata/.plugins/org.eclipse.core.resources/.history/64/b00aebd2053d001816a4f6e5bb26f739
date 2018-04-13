@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LOGIN FORM</title>
+		<script type="text/javascript">
+			function register(){
+				window.location("exp11.html");
+			}
+		</script>
+	</head>
+	<body>
+	<h1>LOGIN HERE</h1>
+		<form action="Exp11login.jsp">
+		 Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"  /><br/><br/>
+		 Password: &nbsp;<input type="text" name="pass"  /><br/><br/>
+			<input type="submit" value="Login" />  &nbsp;&nbsp;&nbsp;
+			<input type="button" value="Register" onclick="register()"/>
+		</form>
+	</body>
+</html>

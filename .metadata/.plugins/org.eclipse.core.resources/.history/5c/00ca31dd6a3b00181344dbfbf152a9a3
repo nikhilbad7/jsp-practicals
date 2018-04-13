@@ -1,0 +1,37 @@
+package com.nikhil.web.jdbc;
+
+import java.sql.DriverManager;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.ResultSet;
+import com.mysql.jdbc.Statement;
+
+public class StudentDbUtil {
+	private DataSource dataSource;
+	public StudentDbUtil(DataSource theDataSource){
+		dataSource= theDataSource;
+	}
+	public List<Student> getStudents() throws Exception{
+		List<Student> students = new ArrayList<>();
+		try{
+			Class.forName("com.mysql.jdbc.Driver");
+
+	        Connection con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/web_student_tracker","root",""); 
+	        Statement stmt=(Statement) con.createStatement();
+			//myConn = (Connection) ((Statement) dataSource).getConnection();
+			String q = "select * from student order by last_name";
+			ResultSet rs=(ResultSet) stmt.executeQuery(q);
+			stmt = (Statement) con.createStatement();
+			rs= (ResultSet) stmt.executeQuery(q);
+			while(rs.next()){
+				int id=rs.getInt("id");
+				String firstName = rs.getString("first_name");
+				String lastName = rs.getString("last_name");
+				String email = rs.getString("email");
+		return students;
+	}
+}

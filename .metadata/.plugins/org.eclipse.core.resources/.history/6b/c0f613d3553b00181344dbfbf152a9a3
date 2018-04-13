@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<%
+		try{
+		    Class.forName("com.mysql.jdbc.Driver");
+
+		            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/web_student_tracker","root",""); 
+		            Statement stmt=con.createStatement();//
+		            con.close();
+	    }
+		catch(Exception ex){ 
+		    System.out.println(ex);
+		}
+		%>
+	</body>
+</html>

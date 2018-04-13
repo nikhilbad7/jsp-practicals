@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Add to Contacts</title>
+	</head>
+	<body>
+		<h1>Add to Contacts</h1>
+		<form action="">
+			Name: &nbsp;&nbsp;&nbsp;<input type="text" name="name" /><br/><br/>
+			Phone No : &nbsp;&nbsp;&nbsp;<input type="text" name="phn" /><br/><br/>
+			<input type="submit" value="ADD" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ADD BOOKS</title>
+		<script type="text/javascript">
+			function catalogue(){
+				window.location("exp12showbooks.jsp");
+			}
+		</script>
+	</head>
+	<body>
+	<h1>ADD BOOKS</h1>
+		<form action="Exp12insertbooks.jsp">
+		BOOK NAME: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"  /><br/><br/>
+		 BOOK PRICE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input type="password" name="pass"  /><br/><br/>
+		 		 BOOK QUANTITY: &nbsp;<input type="password" name="pass"  /><br/><br/>
+		 		 BOOK AMOUNT: &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass"  /><br/><br/>
+			<input type="submit" value="ADD" />  &nbsp;&nbsp;&nbsp;
+			<input type="button" value="CATALOGUE" onclick="catalogue()"/>
+		</form>
+	</body>
+</html>

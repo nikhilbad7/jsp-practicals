@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>REGISTRATION PAGE</title>
+	</head>
+	<body>
+		<form action="Exp10.jsp">
+		 Name: &nbsp;<input type="text" name="name"  /><br/>
+		 Password: &nbsp;<input type="password" name="pass"  /><br/>
+		 Email: &nbsp;<input type="email" name="email"  /><br/>
+		 Phone Number: &nbsp;<input type="text" name="phn"  /><br/>
+			<input type="submit" value="Check" />  
+		</form>
+	</body>
+</html>

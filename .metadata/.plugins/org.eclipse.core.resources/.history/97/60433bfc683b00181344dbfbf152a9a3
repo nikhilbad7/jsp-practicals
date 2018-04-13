@@ -1,0 +1,15 @@
+package com.nikhil.web.jdbc;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+public class StudentDbUtil {
+	private DataSource dataSource;
+	public StudentDbUtil(DataSource theDataSource){
+		dataSource= theDataSource;
+	}
+	public List<Student> getStudents() throws Exception{
+		
+	}
+}
